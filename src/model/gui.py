@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import pandas as pd
+#import pandas as pd
 from model import AlzheimerModel
 
 class AlzheimerGUI:

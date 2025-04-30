@@ -3,8 +3,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.feature_selection import SelectKBest, mutual_info_classif
-from src.model.normalizer import Normalizer
-from src.model.dataframe import DataFrame
+from normalizer import Normalizer
+from dataframe import DataFrame
 
 class AlzheimerModel:
     def __init__(self):

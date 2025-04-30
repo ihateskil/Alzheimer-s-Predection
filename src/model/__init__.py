@@ -1,6 +1,6 @@
 import tkinter as tk
 from model import AlzheimerModel
-from src.model.gui import AlzheimerGUI
+from gui import AlzheimerGUI
 
 def test_model():
     model = AlzheimerModel()
