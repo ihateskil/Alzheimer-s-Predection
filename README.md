@@ -8,5 +8,5 @@ __Under the provision of prof. Mamdouh Gad__
 - Khaled Ibrahem Abdelmonem
 - Ahmed Sayed Khafaga
 - Abanoub Elabany Zareef
-- Mohamed Osamey Mohamed 
+- Mohamed Osama Mohamed 
 #
