@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-#import pandas as pd
 from model import AlzheimerModel
 
 class AlzheimerGUI:
@@ -10,7 +9,7 @@ class AlzheimerGUI:
         self.model = AlzheimerModel()
         self.model.train()  # Train the model on startup
 
-        # Features expected by the model (excluding PatientID and Diagnosis)
+        # Features expected by the model
         self.features = [
             'Age', 'Gender', 'Ethnicity', 'EducationLevel', 'BMI', 'Smoking',
             'AlcoholConsumption', 'PhysicalActivity', 'DietQuality', 'SleepQuality',

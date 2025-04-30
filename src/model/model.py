@@ -50,13 +50,13 @@ class AlzheimerModel:
         X_train_normalized = self.normalizer.fit_transform(self.input_data_train_selected)
         X_test_normalized = self.normalizer.transform(self.input_data_test_selected)
 
-        # Perform cross-validation
+        # Cross-validation
         cv_scores = cross_val_score(self.model, X_train_normalized, self.result_train, cv=5, scoring='accuracy')
         print("Cross-Validation Scores:", cv_scores)
         print("Mean CV Score:", cv_scores.mean())
         print("Standard Deviation of CV Scores:", cv_scores.std())
 
-        # Train the model on the full training set
+        # Train the model
         self.model.fit(X_train_normalized, self.result_train)
 
         # Evaluate on the test set
