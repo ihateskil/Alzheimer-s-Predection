@@ -1,7 +1,7 @@
 # Alzheimer-Predection
 Alzheimer’s Predection ML Model Project - Assiut National University
 #
-__Under the provision of prof. Mamdouh Gad__
+__Under the sypervision of prof. Mamdouh Gad__
 
 # Team Members:
 - Ahmed Abdelfattah Saad
