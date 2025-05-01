@@ -10,7 +10,7 @@ class AlzheimerGUI:
         self.model = AlzheimerModel()
         self.model.train()  # Train the model on startup
 
-        # Features expected by the model (excluding PatientID and Diagnosis)
+        # Features expected by the model
         self.features = [
             'Age', 'Gender', 'Ethnicity', 'EducationLevel', 'BMI', 'Smoking',
             'AlcoholConsumption', 'PhysicalActivity', 'DietQuality', 'SleepQuality',
@@ -88,5 +88,5 @@ class AlzheimerGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = AlzheimerGUI(root)
-    root.geometry("400x600")  # Set window size
+    root.geometry("400x600") 
     root.mainloop()
