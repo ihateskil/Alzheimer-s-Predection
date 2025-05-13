@@ -6,7 +6,7 @@ class DataFrame:
         self._load_and_prepare_data()
 
     def _load_and_prepare_data(self):
-        data_path = 'C:/Users/iiski/Desktop/Alzheimer_Prediction_Project/datasets/alzheimers_disease_data.csv'
+        data_path = 'Alzheimer_Prediction_Project/datasets/alzheimers_disease_data.csv' # ADD YOUR OWN PATH HERE
         self.data_frame = pd.read_csv(data_path)
         self.input_data = self.data_frame.drop(columns=['PatientID', 'Diagnosis'])
         self.result = self.data_frame['Diagnosis']
